@@ -30,6 +30,12 @@ PRODUCT_COPY_FILES += \
     vendor/qcom/common/vendor/adreno-r/proprietary/vendor/lib/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-glnext.so \
     vendor/qcom/common/vendor/adreno-r/proprietary/vendor/lib/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-qcom.so \
     vendor/qcom/common/vendor/adreno-r/proprietary/vendor/lib/libllvm-qgl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-qgl.so \
+    vendor/qcom/common/vendor/adreno-r/proprietary/vendor/lib/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbase64.so \
+    vendor/qcom/common/vendor/adreno-r/proprietary/vendor/lib/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/libq3dtools_adreno.so \
+    vendor/qcom/common/vendor/adreno-r/proprietary/vendor/lib/notgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/notgsl.so \
+    vendor/qcom/common/vendor/adreno-r/proprietary/vendor/lib/vendor.qti.hardware.display.mapper@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.display.mapper@3.0.so \
+    vendor/qcom/common/vendor/adreno-r/proprietary/vendor/lib/vendor.qti.hardware.display.mapperextensions@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.display.mapperextensions@1.0.so \
+    vendor/qcom/common/vendor/adreno-r/proprietary/vendor/lib/vendor.qti.hardware.display.mapperextensions@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.display.mapperextensions@1.1.so \
     vendor/qcom/common/vendor/adreno-r/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/eglSubDriverAndroid.so \
     vendor/qcom/common/vendor/adreno-r/proprietary/vendor/lib64/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libEGL_adreno.so \
     vendor/qcom/common/vendor/adreno-r/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv1_CM_adreno.so \
@@ -49,4 +55,17 @@ PRODUCT_COPY_FILES += \
     vendor/qcom/common/vendor/adreno-r/proprietary/vendor/lib64/libkernelmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkernelmanager.so \
     vendor/qcom/common/vendor/adreno-r/proprietary/vendor/lib64/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-glnext.so \
     vendor/qcom/common/vendor/adreno-r/proprietary/vendor/lib64/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-qcom.so \
-    vendor/qcom/common/vendor/adreno-r/proprietary/vendor/lib64/libllvm-qgl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-qgl.so
+    vendor/qcom/common/vendor/adreno-r/proprietary/vendor/lib64/libllvm-qgl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-qgl.so \
+    vendor/qcom/common/vendor/adreno-r/proprietary/vendor/lib64/android.hardware.graphics.bufferqueue@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.bufferqueue@1.0.so \
+    vendor/qcom/common/vendor/adreno-r/proprietary/vendor/lib64/android.hardware.graphics.bufferqueue@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.bufferqueue@2.0.so \
+    vendor/qcom/common/vendor/adreno-r/proprietary/vendor/lib64/android.hardware.graphics.composer@2.3-resources.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.composer@2.3-resources.so \
+    vendor/qcom/common/vendor/adreno-r/proprietary/vendor/lib64/android.hardware.graphics.composer@2.4-resources.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.composer@2.4-resources.so \
+    vendor/qcom/common/vendor/adreno-r/proprietary/vendor/lib64/gpu++.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gpu++.so \
+    vendor/qcom/common/vendor/adreno-r/proprietary/vendor/lib64/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbase64.so \
+    vendor/qcom/common/vendor/adreno-r/proprietary/vendor/lib64/libgpuservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpuservice.so \
+    vendor/qcom/common/vendor/adreno-r/proprietary/vendor/lib64/libgpu_tonemapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpu_tonemapper.so \
+    vendor/qcom/common/vendor/adreno-r/proprietary/vendor/lib64/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libq3dtools_adreno.so \
+    vendor/qcom/common/vendor/adreno-r/proprietary/vendor/lib64/vendor.qti.hardware.display.mapper@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.display.mapper@3.0.so \
+    vendor/qcom/common/vendor/adreno-r/proprietary/vendor/lib64/vendor.qti.hardware.display.mapper@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.display.mapper@4.0.so \
+    vendor/qcom/common/vendor/adreno-r/proprietary/vendor/lib64/vendor.qti.hardware.display.mapperextensions@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.display.mapperextensions@1.0.so \
+    vendor/qcom/common/vendor/adreno-r/proprietary/vendor/lib64/vendor.qti.hardware.display.mapperextensions@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.display.mapperextensions@1.1.so \
